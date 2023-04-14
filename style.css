@@ -1,0 +1,88 @@
+.inTable {
+  max-width: 140px;
+  min-width: 80px;
+  text-align: center;
+  padding: 4px;
+}
+
+td {
+  border: 1px solid rgb(6, 91, 2);
+  padding: 10px;
+  color: #315a03;
+  text-align: center;
+}
+.note {
+  font-weight: bolder;
+  color: green;
+}
+body {
+  font-family: "Book Antiqua", sans-serif;
+  font-size: 20px;
+  background-color: rgb(222, 252, 176);
+  padding: 3rem;
+}
+h1 {
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  body {
+    background: rgb(222, 252, 176);
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+input[type="button"] {
+  background-color: #008cba;
+  border: 2px solid #008cba;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+input[type="button"]:hover,
+input[type="button"]:focus {
+  background-color: white;
+  color: black;
+  border: 2px solid #4aba00;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+#anotherQue {
+  background-color: bisque;
+  border: 2px solid beige;
+  color: #000;
+}
+#anotherQue:hover,
+#anotherQue:focus,
+#printAns:hover,
+#printAns:focus {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+.result {
+  color: white;
+}
+input[type="number"] {
+  min-width: 250px;
+  min-height: 30px;
+}
+#problemType {
+  min-width: 250px;
+  min-height: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: medium;
+}
+#printAns {
+  background-color: bisque;
+  border: 2px solid beige;
+  color: #000;
+}
